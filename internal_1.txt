@@ -1,0 +1,71 @@
+========================================
+DATA ENGINEERING / SPARK INTERVIEW QUESTIONS
+========================================
+
+===============================
+DATA / SPARK / SQL CONCEPTS
+===============================
+
+1. What is MVCC?
+2. How governance works in Databricks?
+3. How a user is able to access any tables in Unity Catalog (UC)?
+4. How to find duplicates without using DISTINCT?
+5. How to print only values which are not duplicate?
+6. Given a list [A, B, C, D, E, F] → count occurrences → {A:1, B:2, ...}.
+7. Given list [A, B, C, D, E] → output [A, B, C] without using loop.
+
+
+===============================
+SPARK / DATABRICKS INTERNALS
+===============================
+
+1. How will you enable AQE (Adaptive Query Execution)?
+2. What is AQE?
+3. What is predicate pushdown?
+4. What is skew and why do we need salting?
+5. What is small file problem and why does it occur?
+6. What is difference between temp table and views?
+7. What is temporary table?
+8. What is difference between temp view and global temp view?
+9. When will you use global view vs temp view?
+
+
+===============================
+OPTIMIZATION / EXECUTION
+===============================
+
+1. What are Spark execution optimization techniques?
+2. What is partitioning vs bucketing?
+3. What is repartition vs coalesce?
+4. How to check if a broadcast join happened or not?
+5. What join algorithm Spark SQL uses internally while running a query?
+6. What is difference between Rank, Dense Rank, and Row Number?
+
+
+===============================
+PRACTICAL / SCENARIO-BASED
+===============================
+
+1. How will you act when you are assigned with a new ticket?
+2. How will you push code to production? If not directly, what steps will you follow?
+3. If you are responsible for access permissions, what approach will you follow?
+4. If data is not available for 7 days, what will you do?
+5. How to handle schema mismatch when:
+   - table1 has columns A, B, C, D, E
+   - table2 has columns A, B, E
+6. How will you act in a real-world project scenario like Syngenta?
+
+
+===============================
+CONCEPTUAL / MODELING
+===============================
+
+1. What is wide transformation vs narrow transformation?
+2. What are SCD Type 0, Type 1, and Type 2?
+3. What is difference between UNION and UNION ALL?
+4. How to parse JSON when it is stored as string?
+5. What is difference between Rank, DenseRank, and RowNumber?
+
+===============================
+END
+===============================
